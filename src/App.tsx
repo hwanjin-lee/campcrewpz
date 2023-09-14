@@ -9,6 +9,7 @@ function App() {
       <div>
         <h1>Camp Crew PZ</h1>
         <p>Project Zomboid Gaming Community</p>
+        <p>24/7 | PVE | Economy | Player Shops | Light Mods</p>
         <a href="/">
           <img src={campCrewLogo} className="logo" alt="CampCrew logo" />
         </a>
