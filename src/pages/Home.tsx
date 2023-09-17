@@ -15,13 +15,13 @@ const Home = () => {
   return (
     <div>
       <h1>Camp Crew PZ</h1>
-      <p>Project Zomboid Gaming Community</p>
+      <h2>Project Zomboid Gaming Community</h2>
       <p>24/7 | PVE | Economy | Player Shops | Light Mods</p>
       <a href="/">
         <img src={campCrewLogo} className="logo" alt="CampCrew logo" />
       </a>
       <h2>172.107.182.31 : 28000</h2>
-      <img src={battlemetricsBannerChoice()} />
+      <img src={battlemetricsBannerChoice()} alt="battlemetrics banner" />
       <div className="buttonsOfLinks">
         <div className="joinButtonContainer">
           <a
@@ -44,7 +44,6 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <p className="read-the-docs">website under construction</p>
     </div>
   );
 };
