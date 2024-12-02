@@ -1,0 +1,157 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Aboreto:wght@400&display=swap');
+
+.aboreto-regular {
+  font-family: "Aboreto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+.backgroundPicContainer {
+  position: relative;
+  background-color: #222222;
+}
+
+.backgroundPic {
+  opacity: 0.3;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .backgroundPic {
+    padding-top: 120px;
+  }
+}
+
+.navBarContainer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.container {
+  /* font-family: 'Protest Revolution', sans-serif; */
+  text-align: center;
+}
+
+.title {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.titleText1 {
+  font-size: 20px;
+}
+.titleText2 {
+  font-size: 20px;
+}
+@media screen and (min-width: 600px) {
+  .titleText1 {
+    font-size: 40px;
+  }
+  .titleText2 {
+    font-size: 20px;
+  }
+}
+
+.titleImage {
+  /* max-width: 600px;
+  max-height: 402px; */
+  width: 70%;
+  margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    margin-top: 50px;
+  }
+}
+
+.logo {
+  background-color: #474747;
+  padding: 0.5rem;
+  border-radius: 10rem;
+  width: 15rem;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.buttonsOfLinks {
+  display: flex;
+  margin: auto;
+  max-width: 600px;
+  padding: 2em;
+}
+
+@media screen and (max-width: 900px) {
+  .buttonsOfLinks {
+    flex-direction: column;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.joinButtonContainer {
+  margin: auto;
+  width: 200px;
+}
+
+.joinButton {
+  background-color: #363636;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: white;
+  font-weight: bold;
+  margin: 0.2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .joinButton {
+    padding: 0.5rem;
+  }
+}
+
+.joinButton:hover {
+  background-color: #474747;
+}
+
+.logoInButton {
+  width: 2rem;
+  padding-left: 1rem;
+}
+
+.btnTitle {
+  padding: 0 1rem;
+}

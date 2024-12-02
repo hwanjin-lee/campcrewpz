@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    max-width: 250px;
+}
+
+.trait {
+    margin: 2px;
+}
+
+.traitContainer {
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    background-color: #ccc;
+    color: var(--color-bg);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}

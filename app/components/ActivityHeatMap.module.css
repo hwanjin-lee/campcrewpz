@@ -1,0 +1,13 @@
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.map {
+    position: absolute;
+    z-index: -1;
+}
+
+.red {
+    color: rgb(255, 63, 63);
+}

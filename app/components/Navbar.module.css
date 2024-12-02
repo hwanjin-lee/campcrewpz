@@ -1,0 +1,47 @@
+.navbarContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.background {
+    background-color: rgb(36, 36, 36);
+    opacity: 0.9;
+    transition: 0.1s all linear ;
+}
+
+@media screen and (max-width: 600px) {
+    .navbarContainer {
+        flex-direction: column;
+    }
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoText {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.linksContainer {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 0 1rem;
+    cursor: pointer;
+    transition: 0.1 all linear;
+}
+
+.link:hover > div {
+    color: red;
+}

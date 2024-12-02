@@ -1,0 +1,132 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark;
+  background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-primary: #206BC4;
+  --color-font-white: #e9e9ea;
+  --color-font-gray: #97979e;
+  --color-font-accent: #206bc4;
+  --color-bg: #1c1c1c;
+  --color-bg2: #363636;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 1.4rem;
+  background-color: var(--color-bg2);
+  color: var(--color-font-white);
+  margin: 0;
+}
+
+a:visited,
+a:link,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+button {
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+#playerTable {
+  border-collapse: collapse;
+  border: none;
+  margin: 1rem;
+  /* background-color: #ffffff; */
+}
+
+#playerTable td, #playerTable th {
+  /* border: 1px solid #ddd; */
+  padding: 7px;
+  min-width: 150px;
+}
+
+#playerTable tr:nth-child(odd){background-color: var(--color-bg)}
+#playerTable tr:nth-child(even){background-color: #212121}
+
+#playerTable tr:hover {background-color:var(--color-bg)}
+
+#playerTable th {
+  cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--color-primary);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sticky-col {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0px;
+}
+
+.evenRow {
+  background-color:var(--color-bg);
+}
+
+.oddRow {
+  background-color: #212121;
+}
+
+.evenRow,
+.oddRow {
+  border-right: 1px solid var(--color-bg);
+  white-space: nowrap;
+}
+
+#playerTable tr:hover,
+#playerTable tr:hover > .evenRow:hover,
+#playerTable tr:hover > .oddRow:hover {
+  background-color: #24283c;
+}
+
+a {
+  color: #fff;
+}
+
+.white {
+  color: #fff;
+  background-color: #fff;
+}
+
+.image {
+  display: flex;
+  padding: 0 10px;
+  transition: all 0.1s linear
+}
+
+.backHome {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.backHome:hover {
+  color: yellow;
+}
+
+.backHome:hover > .image {
+  padding: 0 15px 0 5px;
+}
