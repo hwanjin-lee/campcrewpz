@@ -44,6 +44,76 @@ export default function Home() {
           <div className={styles.titleText2}>Hosted since 06.2023</div>
         </div>
       </div>
+      <div>
+        <div
+          style={{
+            margin: "60px 0 20px",
+            fontSize: "20px",
+            textAlign: "center",
+          }}
+        >
+          Available Servers 24/7
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            gap: "10px",
+          }}
+        >
+          <div
+            style={{
+              width: "200px",
+              textAlign: "center",
+              border: "1px solid white",
+              padding: "10px",
+              borderRadius: "10px",
+            }}
+          >
+            <a
+              href="https://www.battlemetrics.com/servers/zomboid/30723200"
+              target="_blank"
+            >
+              <div>Vanilla Server</div>
+            </a>
+          </div>
+          <div
+            style={{
+              width: "200px",
+              textAlign: "center",
+              border: "1px solid white",
+              padding: "10px",
+              borderRadius: "10px",
+            }}
+          >
+            <a
+              href="https://www.battlemetrics.com/servers/zomboid/30539162"
+              target="_blank"
+            >
+              <div>Modded Server</div>
+            </a>
+          </div>
+          <div
+            style={{
+              width: "200px",
+              textAlign: "center",
+              border: "1px solid white",
+              padding: "10px",
+              borderRadius: "10px",
+            }}
+          >
+            <a href="https://discord.com/invite/UAxdrPNdbj" target="_blank">
+              <div>Event Server</div>
+            </a>
+          </div>
+        </div>
+        <div style={{ textAlign: "center" }}>
+          <p>Noob and Veterans friendly</p>
+          <p>New Players are always welcomed! ^^</p>
+          <p>Happy Surviving~~</p>
+        </div>
+      </div>
       <div className={styles.container}>
         <div>
           <a
@@ -54,8 +124,21 @@ export default function Home() {
           </a>
         </div>
         <br />
-        <h1>Server Information</h1>
-        <p>US-WEST || 24/7 || PVE || 1.5 EXP || Fast Read || Vanilla Map</p>
+        <h1>Vanilla Server Information</h1>
+        <p>PVE || 8 EXP || Fast Read || No Mods</p>
+        <p>
+          Safehouse || Daily Loot Respawn || Fast Read || Starter Kit || All Map
+          Known || Shorter Night but Dark || Meatier zombie health || Zombie
+          Infection through Bite Only ||
+        </p>
+        <p>
+          High Car Spawn, Low Damage Upon Crash, but lower initial condition
+        </p>
+        <p>Noob and Veterans friendly</p>
+        <p>New Players welcome!</p>
+
+        <h1>Modded Server Information</h1>
+        <p>PVE || 1.5 EXP || Fast Read || Vanilla Map</p>
         <p>
           Safehouse & Vehicle Claim (5) || Cure Vaccine But No Journal ||
           Shorter Night but Dark || Meatier zombie health
